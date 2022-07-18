@@ -29,3 +29,17 @@
 
     git checkout -b develop master / main
     git merge master/main branch 
+
+    ----
+    
+    git checkout main/master
+
+    git merge develop (merge changes in develop branch into master branch)
+
+    // makes changes in master and need to synchronize this change to develop branch 
+
+    // assume changes has already been checked into master branch 
+
+    git checkout develop
+    git merge master (merge changes done in master branch into develop branch)
+    git push -u origin develop 
