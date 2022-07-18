@@ -27,4 +27,5 @@
 
     -u (implies to commit all the uncommited )
 
-    git checkout -b develop master / main 
+    git checkout -b develop master / main
+    git merge master/main branch 
