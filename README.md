@@ -28,3 +28,11 @@
     -u (implies to commit all the uncommited )
 
     git checkout -b develop master / main 
+
+    deploy to heroku from master branch ALWAYS
+    1. git branch
+    2. git checkout master
+    3. heroku login
+    4. heroku apps:create
+    5. git remote -v
+    6. git push -u heroku master
